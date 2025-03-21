@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+
+@theme{
+  --color-dark-bg-primary: var(--color-stone-700);
+  --color-dark-bg-secondary: var(--color-stone-950);
+  --color-accent-bg: var(--color-red-200);
+  --color-accent-primary: var(--color-red-300);
+
+  --color-light-bg-primary: var(--color-white);
+  --color-light-bg-secondary: var(--color-stone-100);
+
+  --color-dark-text-primary: var(--color-white);
+  --color-dark-text-secondary: var(--color-stone-200);
+  --color-accent-text: var(--color-red-800);
+
+  --color-light-text-primary: var(--color-stone-950);
+  --color-light-text-secondary: var(--color-stone-800);
+}
+
+@layer base{
+  body{
+    @apply bg-light-bg-secondary dark:bg-dark-bg-secondary;
+  }
+}
+
+
+@layer components{
+  .padding{
+    @apply pt-10 pb-5;
+  }
+  .max-container{
+    max-width: 1440px;
+    margin: auto 0;
+  }
+}
+@custom-variant dark (&:where(.dark, .dark *));
