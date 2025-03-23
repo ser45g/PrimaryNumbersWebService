@@ -5,21 +5,23 @@ import { useSelector, useDispatch } from "react-redux";
 import { setPrimaryNumbers } from "../state/slices/primaryNumbersSlice";
 
 const PrimaryNumbersGenerator = () => {
-  const [start, setStart] = useState(2);
-  const [end, setEnd] = useState(1000);
+  
   const [fetchError, setFetchError] = useState("");
-  const primaryNumbers=useSelector(state=>state.primaryNumbers.primaryNumbers);
-  //alert(primaryNumbers);
+  const primaryNumbersObject=useSelector(state=>state.primaryNumbers.primaryNumbersObject);
+
+  alert(JSON.stringify(primaryNumbersObject));
+
+  const [start, setStart] = useState(primaryNumbersObject?.start);
+  const [end, setEnd] = useState(primaryNumbersObject?.end);
 
   const dispatch= useDispatch();
-  //const [primaryNumbers, setPrimaryNumbers] = useState(lastFetchedPrimaryNumbers);
-  const [totalNumbers, setTotalNumbers] = useState(0);
+  
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!startNumberValid || !endNumberValid) return;
-    const api_url = `https://localhost:7108?start=${start}&end=${end}`;
+    const api_url = `https://localhost:7108/api/primary-numbers?start=${start}&end=${end}`;
     const headers = new Headers();
     headers.append("Content-Type", "application/json");
     headers.append("Accept", "application/json");
@@ -37,9 +39,9 @@ const PrimaryNumbersGenerator = () => {
         throw new Error(pN);
       }
       const pN = await response.json();
-      //setPrimaryNumbers((s) => pN.primaryNumbers);
-      dispatch(setPrimaryNumbers(pN.primaryNumbers))
-      setTotalNumbers((t) => pN.total);
+      alert(JSON.stringify(pN));
+      dispatch(setPrimaryNumbers(pN))
+     
     } catch (ex) {
       setFetchError((error) => ex.message);
     } finally {
@@ -131,13 +133,13 @@ const PrimaryNumbersGenerator = () => {
         <h2 className="text-md text-black dark:text-white">{`Result in the range [${start}, ${end}]`}</h2>
         <h4 className="text-black dark:text-white">
           {`Found: `}
-          <span className="underline text-blue-500">{`${totalNumbers}`}</span>
+          <span className="underline text-blue-500">{`${primaryNumbersObject.total}`}</span>
         </h4>
         {isLoading ? <p className="text-green-400">Loading...</p> : ""}
 
         {!isLoading && (fetchError === "" || fetchError === null) ? (
           <ul className="px-1 py-2 mt-1 ">
-            {primaryNumbers.map((num, index) => (
+            {primaryNumbersObject?.primaryNumbers?.map((num, index) => (
               <li key={num} className="odd:bg-red-100 even:bg-blue-100 text-black dark:text-white dark:odd:bg-stone-800 dark:even:bg-stone-600 rounded-md p-1 m-1.5" >
                 {num}
               </li>

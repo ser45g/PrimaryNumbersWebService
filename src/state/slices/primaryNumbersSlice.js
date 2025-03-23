@@ -1,12 +1,19 @@
 import { createSlice } from "@reduxjs/toolkit";
-const initialState={primaryNumbers:[]};
+const initialState={
+  primaryNumbersObject:{
+    primaryNumbers:[],
+    total:0,
+    start:2,
+    end:1000
+  }
+};
 
 export const primaryNumbersSlice=createSlice({
   name:'primaryNumbers',
   initialState,
   reducers:{
     setPrimaryNumbers: (state,action)=>{
-      state.primaryNumbers= action.payload;
+      state.primaryNumbersObject= action.payload;
     }
   }
 });
