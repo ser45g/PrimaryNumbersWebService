@@ -9,7 +9,7 @@ const PrimaryNumbersGenerator = () => {
   const [end, setEnd] = useState(1000);
   const [fetchError, setFetchError] = useState("");
   const primaryNumbers=useSelector(state=>state.primaryNumbers.primaryNumbers);
-  alert(primaryNumbers);
+  //alert(primaryNumbers);
 
   const dispatch= useDispatch();
   //const [primaryNumbers, setPrimaryNumbers] = useState(lastFetchedPrimaryNumbers);

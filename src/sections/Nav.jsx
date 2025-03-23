@@ -25,7 +25,7 @@ const Nav = () => {
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >
-            <span className="sr-only">Open main menu</span>
+       
             <svg
               className="w-5 h-5"
               aria-hidden="true"
