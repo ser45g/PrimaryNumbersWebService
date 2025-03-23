@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <section className="flex  flex-col items-center gap-3 justify-center ">
-      <article className="bg-white  py-8 px-6 rounded-md  flex-1 p-3 ring-1 ring-violet-200 shadow-xl w-full dark:bg-gray-900">
+      <article className="bg-white  py-8 px-6 rounded-md  flex-1 p-3 shadow-xl w-full dark:bg-gray-900">
         <h3 className="font-bold dark:text-white text-stone-950 mb-2">
           Welcome to our application!
         </h3>
@@ -19,7 +19,7 @@ const Home = () => {
         </p>
       </article>
 
-      <article className="bg-white flex-1 py-8 px-6 rounded-md  w-full p-3 ring-1 ring-violet-200 shadow-xl  dark:bg-gray-900 my-2">
+      <article className="bg-white flex-1 py-8 px-6 rounded-md  w-full p-3 shadow-xl  dark:bg-gray-900 my-2">
         <h3 className="font-bold dark:text-white text-stone-950 mb-2">
           Functionality
         </h3>
