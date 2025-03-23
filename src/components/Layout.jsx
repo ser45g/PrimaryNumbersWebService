@@ -6,7 +6,7 @@ const Layout = () => {
     <main>
       <Nav/>
       <section className='mt-24 w-full flex justify-center flex-row'>
-        <div className='max-w-2xl m-2 w-full'>
+        <div className='max-w-screen-md m-2 w-full'>
           <Outlet />
         </div>
       </section>

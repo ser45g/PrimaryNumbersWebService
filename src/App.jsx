@@ -1,11 +1,8 @@
-import { useState } from 'react'
-
 import './App.css'
-import Home from './sections/Home';
 import {Route, Routes} from 'react-router-dom';
-import { ThemeSelect } from './sections/ThemeSelect';
-import PrimaryNumbersGenerator from './sections/PrimaryNumbersGenerator';
+
 import Layout from './components/Layout';
+import {Home,PrimaryNumbersGenerator} from './sections/index'
 
 function App() {
  

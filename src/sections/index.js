@@ -1,12 +1,12 @@
 import Nav from './Nav';
 import PrimaryNumbersGenerator from './PrimaryNumbersGenerator';
-import Footer from './Footer';
+import Home from './Home';
 
 
 export {
 
   Nav,
   PrimaryNumbersGenerator,
-  Footer,
+  Home
   
 }
