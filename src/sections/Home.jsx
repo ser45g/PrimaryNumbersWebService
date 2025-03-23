@@ -1,35 +1,29 @@
 import { useState } from "react";
 import { applicationFunctions } from "../constants";
-import {
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-} from "@headlessui/react";
+import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 
-import {
-  ChevronDownIcon,
-  QuestionMarkCircleIcon,
-} from "@heroicons/react/20/solid";
+import { ChevronDownIcon, QuestionMarkCircleIcon} from "@heroicons/react/20/solid";
+
 const Home = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="flex  flex-col items-center gap-3 justify-center ">
-      <div className="bg-white  py-8 px-6 rounded-md  flex-1 p-3 ring-1 ring-accent-primary shadow-xl w-full dark:bg-gray-900">
-        <h3 className="font-bold dark:text-dark-text-primary text-stone-950 mb-2">
+    <section className="flex  flex-col items-center gap-3 justify-center ">
+      <article className="bg-white  py-8 px-6 rounded-md  flex-1 p-3 ring-1 ring-violet-200 shadow-xl w-full dark:bg-gray-900">
+        <h3 className="font-bold dark:text-white text-stone-950 mb-2">
           Welcome to our application!
         </h3>
-        <p className="text-light-text-secondary dark:text-dark-text-secondary text-base font-medium tracking-tight">
+        <p className="text-stone-700 dark:text-stone-300 text-base font-medium tracking-tight">
           This application allows you to work with primary numbers. It can be
           used for learning purposes
         </p>
-      </div>
+      </article>
 
-      <div className="bg-white flex-1 py-8 px-6 rounded-md  w-full p-3 ring-1 ring-accent-primary shadow-xl  dark:bg-gray-900 my-2">
-        <h3 className="font-bold dark:text-dark-text-primary text-stone-950 mb-2">
+      <article className="bg-white flex-1 py-8 px-6 rounded-md  w-full p-3 ring-1 ring-violet-200 shadow-xl  dark:bg-gray-900 my-2">
+        <h3 className="font-bold dark:text-white text-stone-950 mb-2">
           Functionality
         </h3>
-        <p className="text-light-text-secondary dark:text-dark-text-secondary text-base font-medium tracking-tight mb-3">
+        <p className="text-stone-700 dark:text-stone-300 text-base font-medium tracking-tight mb-3">
           This application has such functionalities, as:
         </p>
         <ul id="accordion-open" data-accordion="open">
@@ -60,8 +54,8 @@ const Home = () => {
             </li>
           ))}
         </ul>
-      </div>
-    </div>
+      </article>
+    </section>
   );
 };
 

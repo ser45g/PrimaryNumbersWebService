@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import { headerLogo } from "../assets/icons";
 import ToggleThemeButton from "../components/ToggleThemeButton";
 import { navLinks } from "../constants";
+
 const Nav = () => {
- 
   return (
-    <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-      <div className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-4 px-1 ">
-        <div className="flex items-center space-x-3 rtl:space-x-reverse">
+    <header className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+      <nav className="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-4 px-1 ">
+        <article className="flex items-center space-x-3 rtl:space-x-reverse">
           <div className="p-2 rounded-full bg-white">
             <img src={headerLogo} className="h-8 " alt="Header Logo" />
           </div>
@@ -15,8 +15,8 @@ const Nav = () => {
           <span className="self-center text-xl font-semibold  dark:text-white">
             Primary Numbers
           </span>
-        </div>
-        <div className="flex md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse flex-row justify-between items-center">
+        </article>
+        <article className="flex md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse flex-row justify-between items-center">
           <ToggleThemeButton/>
           <button
             data-collapse-toggle="navbar-sticky"
@@ -42,8 +42,8 @@ const Nav = () => {
               />
             </svg>
           </button>
-        </div>
-        <div
+        </article>
+        <article
           className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
           id="navbar-sticky"
         >
@@ -54,8 +54,7 @@ const Nav = () => {
                <Link
                 
                  to={link.href}
-                 className="block py-2 px-3 text-light-text-primary rounded-sm hover:bg-light-bg-secondary md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-dark-text-primary dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent max-sm:dark:border-gray-700  max-sm:ring-1 sm:underline"
-                 
+                 className="block py-2 px-3 text-blue-950 rounded-sm hover:bg-light-bg-secondary md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-blue-200 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent max-sm:dark:border-gray-700  max-sm:ring-1 sm:underline"
                >
                  {link.label}
                </Link>
@@ -63,9 +62,9 @@ const Nav = () => {
             )) }
           
           </ul>
-        </div>
-      </div>
-    </nav>
+        </article>
+      </nav>
+    </header>
   );
 };
 
