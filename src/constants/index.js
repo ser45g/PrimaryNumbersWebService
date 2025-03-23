@@ -12,7 +12,7 @@ export const navLinks=[
 export const applicationFunctions=[
     {
         header: "Generating primary numbers in a specific range",
-        description: "You generate primary numbers starting from 2 and ending with 1 000 000 000. For example, [2, 10] =&gt; 2 3 5 7",
+        description: "You can generate primary numbers starting from 2 and ending with 1 000 000 000. For example, [2, 10] =&gt; 2 3 5 7",
         isImplemented: true
     },
     {

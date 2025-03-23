@@ -21,9 +21,9 @@ const ToggleThemeButton = () => {
   };
 
   return (
-    <button className='text-yellow-600  dark:text-blue-200  rounded-md p-2' onClick={toggleColor}>
+    <button className='text-yellow-600  dark:text-blue-200 hover:bg-yellow-100 dark:hover:bg-blue-900  rounded-full p-2' onClick={toggleColor}>
       { isDark?
-        <MoonIcon className="w-8"/>:
+        <MoonIcon className="w-8 "/>:
         <SunIcon className="w-8"/>
       }
     </button>

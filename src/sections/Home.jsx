@@ -15,7 +15,7 @@ const Home = () => {
         </h3>
         <p className="text-stone-700 dark:text-stone-300 text-base font-medium tracking-tight">
           This application allows you to work with primary numbers. It can be
-          used for learning purposes
+          used for learning purposes.
         </p>
       </article>
 
@@ -24,7 +24,7 @@ const Home = () => {
           Functionality
         </h3>
         <p className="text-stone-700 dark:text-stone-300 text-base font-medium tracking-tight mb-3">
-          This application has such functionalities, as:
+          This application has such functionalities as:
         </p>
         <ul id="accordion-open" data-accordion="open">
           {applicationFunctions.map((func, index) => (
