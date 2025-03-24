@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|c:\\users\\hp\\desktop\\finishedpetprojects\\webservice\\backend\\primarynumbersapi\\primarynumbersgenerators\\sieveoferatosthenesprimarynumbersrangefinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|solutionrelative:primarynumbersgenerators\\sieveoferatosthenesprimarynumbersrangefinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|c:\\users\\hp\\desktop\\finishedpetprojects\\webservice\\backend\\primarynumbersapi\\controllers\\primarynumberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|solutionrelative:controllers\\primarynumberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|c:\\users\\hp\\desktop\\finishedpetprojects\\webservice\\backend\\primarynumbersapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|c:\\users\\hp\\desktop\\finishedpetprojects\\webservice\\backend\\primarynumbersapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|c:\\users\\hp\\desktop\\finishedpetprojects\\webservice\\backend\\primarynumbersapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|c:\\users\\hp\\desktop\\finishedpetprojects\\webservice\\backend\\primarynumbersapi\\primarynumbersapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|solutionrelative:primarynumbersapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|c:\\users\\hp\\desktop\\finishedpetprojects\\webservice\\backend\\primarynumbersapi\\responses\\getprimarynumbersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|solutionrelative:responses\\getprimarynumbersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|c:\\users\\hp\\desktop\\finishedpetprojects\\webservice\\backend\\primarynumbersapi\\utilities\\serializers\\bigintegerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|solutionrelative:utilities\\serializers\\bigintegerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f6c90d9a-1aa8-32e5-baac-467b7262213c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SieveOfEratosthenesPrimaryNumbersRangeFinder.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\PrimaryNumbersGenerators\\SieveOfEratosthenesPrimaryNumbersRangeFinder.cs",
+              "RelativeDocumentMoniker": "PrimaryNumbersGenerators\\SieveOfEratosthenesPrimaryNumbersRangeFinder.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\PrimaryNumbersGenerators\\SieveOfEratosthenesPrimaryNumbersRangeFinder.cs",
+              "RelativeToolTip": "PrimaryNumbersGenerators\\SieveOfEratosthenesPrimaryNumbersRangeFinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T20:25:40.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-23T16:59:41.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BigIntegerConverter.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\Utilities\\Serializers\\BigIntegerConverter.cs",
+              "RelativeDocumentMoniker": "Utilities\\Serializers\\BigIntegerConverter.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\Utilities\\Serializers\\BigIntegerConverter.cs",
+              "RelativeToolTip": "Utilities\\Serializers\\BigIntegerConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T13:45:56.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PrimaryNumbersAPI.http",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\PrimaryNumbersAPI.http",
+              "RelativeDocumentMoniker": "PrimaryNumbersAPI.http",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\PrimaryNumbersAPI.http",
+              "RelativeToolTip": "PrimaryNumbersAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-16T12:52:29.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetPrimaryNumbersResponse.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\Responses\\GetPrimaryNumbersResponse.cs",
+              "RelativeDocumentMoniker": "Responses\\GetPrimaryNumbersResponse.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\Responses\\GetPrimaryNumbersResponse.cs",
+              "RelativeToolTip": "Responses\\GetPrimaryNumbersResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T12:50:12.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrimaryNumbersController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\Controllers\\PrimaryNumbersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrimaryNumbersController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\Controllers\\PrimaryNumbersController.cs",
+              "RelativeToolTip": "Controllers\\PrimaryNumbersController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T12:43:02.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T12:33:25.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\FinishedPetProjects\\WebService\\backend\\PrimaryNumbersAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-23T16:59:35.982Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
