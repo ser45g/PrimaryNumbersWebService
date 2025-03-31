@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "PrimaryNumbersAPI.Controllers.PrimaryNumbersController",
+    "Method": "Index",
+    "RelativePath": "api/primary-numbers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "start",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "end",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
