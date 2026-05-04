@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\PrimaryNumbersAPI.props" />
-</Project>

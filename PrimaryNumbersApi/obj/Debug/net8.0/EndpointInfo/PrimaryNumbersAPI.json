@@ -1,0 +1,70 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PrimaryNumbersAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/primary-numbers": {
+      "get": {
+        "tags": [
+          "PrimaryNumbers"
+        ],
+        "parameters": [
+          {
+            "name": "start",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/BigInteger"
+            }
+          },
+          {
+            "name": "end",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/BigInteger"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BigInteger": {
+        "type": "object",
+        "properties": {
+          "isPowerOfTwo": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isZero": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isOne": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isEven": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "sign": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
