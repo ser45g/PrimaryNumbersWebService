@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\PrimaryNumbersWebService\\PrimaryNumbersApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|c:\\users\\hp\\desktop\\primarynumberswebservice\\primarynumbersapi\\controllers\\primarynumberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|solutionrelative:controllers\\primarynumberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|c:\\users\\hp\\desktop\\primarynumberswebservice\\primarynumbersapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD39E387-BD4B-41F0-911C-2DAF96EAA93B}|PrimaryNumbersAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -67,12 +71,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PrimaryNumbersController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PrimaryNumbersWebService\\PrimaryNumbersApi\\Controllers\\PrimaryNumbersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrimaryNumbersController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PrimaryNumbersWebService\\PrimaryNumbersApi\\Controllers\\PrimaryNumbersController.cs",
+              "RelativeToolTip": "Controllers\\PrimaryNumbersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T12:11:02.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PrimaryNumbersWebService\\PrimaryNumbersApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\PrimaryNumbersWebService\\PrimaryNumbersApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-03T21:26:35.378Z",
               "EditorCaption": ""
