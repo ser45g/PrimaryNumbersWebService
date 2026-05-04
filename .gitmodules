@@ -1,3 +1,9 @@
 [submodule "backend/PrimaryNumbersAPI/PrimaryNumbersGenerators"]
 	path = backend/PrimaryNumbersAPI/PrimaryNumbersGenerators
 	url = https://github.com/ser45g/PrimaryNumbersGenerators.git
+[submodule "PrimaryNumbersApi/PrimaryNumbersGenerators2"]
+	path = PrimaryNumbersApi/PrimaryNumbersGenerators2
+	url = https://github.com/ser45g/PrimaryNumbersGenerators.git
+[submodule "PrimaryNumbersApi/PrimaryNumbersGenerators"]
+	path = PrimaryNumbersApi/PrimaryNumbersGenerators
+	url = https://github.com/ser45g/PrimaryNumbersGenerators.git
